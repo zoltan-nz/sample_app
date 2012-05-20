@@ -2,6 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+group :assets do
+  gem 'bootstrap-sass'
+  gem 'sass-rails'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -13,4 +18,5 @@ end
 
 group :test do
   gem 'rspec'
+  gem 'spork'
 end
