@@ -27,7 +27,3 @@ group :test do
   gem 'rspec'
   gem 'spork'
 end
-
-group :production do
-  gem 'therubyracer-heroku'
-end
