@@ -135,7 +135,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   coffee-rails
-  execjs
   heroku
   jquery-rails
   rails (= 3.2.3)
