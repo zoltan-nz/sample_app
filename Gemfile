@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'heroku'
+gem 'jquery-rails'
+gem 'uglifier'
 
 group :assets do
   gem 'bootstrap-sass'
