@@ -8,6 +8,10 @@ gem 'uglifier'
 group :assets do
   gem 'bootstrap-sass'
   gem 'sass-rails'
+  gem 'execjs'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 # Bundle edge Rails instead:
