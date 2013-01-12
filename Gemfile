@@ -1,14 +1,25 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails'
+gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
+gem 'faker'
+gem 'will_paginate'
 gem 'heroku'
+gem 'bootstrap-will_paginate'
 gem 'jquery-rails'
-gem 'uglifier'
+gem 'haml-rails'
+gem 'haml'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'sqlite3'
+  gem 'puma'
+end
+
 
 group :assets do
-  gem 'bootstrap-sass'
   gem 'sass-rails'
-  gem 'therubyracer', :platforms => :ruby
   gem 'coffee-rails'
   gem 'uglifier'
 end
@@ -16,13 +27,14 @@ end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-	gem 'rspec-rails'
-	gem 'sqlite3'
-	gem 'annotate', '~> 2.4.1.beta'
-end
 
 group :test do
-  gem 'rspec'
-  gem 'spork'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+end
+
+group :production do
+  gem 'pg'
 end
