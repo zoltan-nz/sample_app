@@ -5,7 +5,6 @@ gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 gem 'faker'
 gem 'will_paginate'
-gem 'heroku'
 gem 'bootstrap-will_paginate'
 gem 'jquery-rails'
 gem 'haml-rails'
@@ -17,7 +16,6 @@ group :development, :test do
   gem 'puma'
 end
 
-
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
@@ -27,7 +25,6 @@ end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
@@ -36,5 +33,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'sqlite3'
 end
