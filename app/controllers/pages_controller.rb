@@ -5,20 +5,20 @@ class PagesController < ApplicationController
   end
 
   def contact
-  
+
   end
-  
+
   def about
     @title = "About"
   end
-  
-  def contact
-    
-  end
-  
+
   def help
     
   end
-  
+
+  def sandbox
+    @title = "Sandbox page"
+
+  end
   
 end

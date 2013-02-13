@@ -60,14 +60,14 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: #fff;
+    color: gray;
     text-decoration: none;
     }
 }
@@ -78,13 +78,13 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: $grayLight;
+  color: $lightGray;
   a {
   color: #555;
   &:hover {
     color: #222;
     }
-  }  
+  }
   small {
   float: left;
   }
