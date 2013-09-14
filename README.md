@@ -1,0 +1,3 @@
+# Sample App
+
+Ruby on Rails tutorial app and more...

@@ -1,3 +1,0 @@
-SAMPLE_APP
-
-Ruby on Rails tutorial app and more...
